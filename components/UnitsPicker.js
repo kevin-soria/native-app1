@@ -1,6 +1,9 @@
 import React from 'react'
 import { View, StyleSheet, Platform } from 'react-native'
 import { Picker } from '@react-native-community/picker'
+import { colors } from '../utils/index'
+
+const { PRIMARY_COLOR } = colors
 // picker component
 export default function UnitsPicker({ unitsSystem, setUnitsSystem }) {
     return (
@@ -29,8 +32,10 @@ const styles = StyleSheet.create({
             },
         }),
 
-        left: 20,
-        height: 50,
-        width: 100,
+        left: 100,
+        height: 150,
+        width: 200,
+        color: PRIMARY_COLOR,
+        // backgroundColor: BCKGD_COLOR,
     },
 })

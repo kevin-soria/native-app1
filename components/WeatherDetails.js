@@ -3,8 +3,8 @@ import { View, Text, StyleSheet } from 'react-native'
 import { colors } from '../utils/index'
 import { FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons'
 
-const { PRIMARY_COLOR, SECONDARY_COLOR, BORDER_COLOR } = colors
-// here comes the details!
+const { PRIMARY_COLOR, SECONDARY_COLOR, BORDER_COLOR, WHITE_COLOR } = colors
+// here comes the
 export default function WeatherDetails({ currentWeather, unitsSystem }) {
     const {
         main: { feels_like, humidity, pressure },
@@ -66,11 +66,14 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: BORDER_COLOR,
         borderRadius: 10,
+        
+        // backgroundColor:  BCKGD_COLOR, 
     },
     weatherDetailsRow: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
+        
     },
     weatherDetailsBox: {
         flex: 1,
