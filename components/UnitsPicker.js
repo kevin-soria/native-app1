@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, StyleSheet, Platform } from 'react-native'
 import { Picker } from '@react-native-community/picker'
-
+// picker component
 export default function UnitsPicker({ unitsSystem, setUnitsSystem }) {
     return (
         <View style={styles.unitsSystem}>

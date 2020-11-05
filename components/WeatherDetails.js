@@ -4,7 +4,7 @@ import { colors } from '../utils/index'
 import { FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons'
 
 const { PRIMARY_COLOR, SECONDARY_COLOR, BORDER_COLOR } = colors
-
+// here comes the details!
 export default function WeatherDetails({ currentWeather, unitsSystem }) {
     const {
         main: { feels_like, humidity, pressure },

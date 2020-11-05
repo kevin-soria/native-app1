@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Image } from 'react-native'
 import { colors } from '../utils/index'
 
 const { PRIMARY_COLOR, SECONDARY_COLOR } = colors
-
+// important view!!!
 export default function WeatherInfo({ currentWeather }) {
     const {
         main: { temp },
