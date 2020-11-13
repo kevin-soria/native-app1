@@ -2,3 +2,4 @@
 ## Made with ReactNative and Expo
 ### Api is used
 [link] (https://openweathermap.org/)
+This app will have a few features:
