@@ -4,3 +4,4 @@
 [link] (https://openweathermap.org/)
 This app will have a few features:
 -Wind Speed
+-Temperature
